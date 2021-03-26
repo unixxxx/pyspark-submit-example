@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm -rf ./dist
 cd src
 find . -name '__pycache__' | xargs rm -rf
