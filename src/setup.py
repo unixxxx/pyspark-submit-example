@@ -1,8 +1,8 @@
-import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="lib",
     version="1.0.0",
-    packages=['shared', 'jobs'],
+    packages=find_packages(
+        exclude=["*.tests", "*.tests.*", "tests.*", "tests"])
 )

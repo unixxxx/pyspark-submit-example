@@ -2,6 +2,7 @@ build:
 	rm -rf ./dist 
 	mkdir dist
 	cp ./src/main.py ./dist
+	cp ./run.sh ./dist
 	cp ./src/config.json ./dist
 	cd src && zip -r ../dist/jobs.zip jobs
 	cd src && zip -r ../dist/shared.zip shared

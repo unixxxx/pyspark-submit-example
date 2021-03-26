@@ -13,5 +13,7 @@ using build.sh
 - `pipenv install`
 - `./build.sh`
 - `cd dist`
-- `spark-submit --py-files lib-1.0.0-py3.8.egg --files config.json --archives env.zip main.py --job word_count`
+- `./run.sh word_count`
+- `./run.sh movies`
+- `./run.sh movie_genres`
 

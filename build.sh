@@ -6,4 +6,5 @@ rm -rf build
 rm -rf lib.egg-info
 cp config.json ../dist
 venv-pack -o ../dist/env.zip
-cp main.py ../dist
+cp main.py ../dist/
+cp ../run.sh ../dist/
