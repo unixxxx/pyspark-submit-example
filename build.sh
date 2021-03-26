@@ -1,5 +1,6 @@
 rm -rf ./dist
 cd src
+find . -name '__pycache__' | xargs rm -rf
 python3 setup.py bdist_egg && mv dist ../dist
 rm -rf build
 rm -rf lib.egg-info
